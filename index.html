@@ -12,13 +12,6 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="default.asp">Ana Sayfa</a></li>
-            <li><a href="proje.asp">Projelerim</a></li>
-        </ul>
-    </div>
-
     <div class="container" x-data="{ rightSide: false, leftSide: false }">
         <div class="left-side" :class="{'active' : leftSide}">
             <div class="left-side-button" @click="leftSide = !leftSide">
