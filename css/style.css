@@ -639,6 +639,8 @@ body {
 .album {
   padding-top: 20px;
   margin-top: 20px;
+  width: 100%;
+  margin-left: -150px;
 }
 
 .album .status-main {
